@@ -20,5 +20,8 @@ const image2 = document.querySelector('.img2')
 image2.src = 'https://cdn.images.express.co.uk/img/dynamic/151/590x/secondary/Asteroid-news-dinosaur-killer-10-billion-atom-bombs-NASA-asteroid-hit-Earth-2049786.webp?r=1568185925852'
 image2.style.height = '300px'
 
-const item16 = document.querySelector('#item-16')
-item16.innerText = 'Won\'t get fooled again'
+const list = document.querySelectorAll('ul li')
+const theItem = list[list.length-1]
+theItem.className = 'item'
+theItem.id = 'item-16'
+theItem.innerText = "Won\'t get fooled again"

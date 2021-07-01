@@ -13,7 +13,7 @@ const item3 = document.querySelector('#item-3')
 item3.innerText = 'I say, "Hi!"'
 
 const image = document.querySelector('img')
-image.src = 'http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
+image.src = 'dino.jpg'
 image.style.height = '300px'
 
 const image2 = document.querySelector('.img2')
